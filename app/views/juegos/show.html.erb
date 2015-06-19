@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @juego.nombre %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @juego.rating %>
+</p>
+
+<%= link_to 'Edit', edit_juego_path(@juego) %> |
+<%= link_to 'Back', juegos_path %>
